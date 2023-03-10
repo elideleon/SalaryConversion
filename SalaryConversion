@@ -1,0 +1,14 @@
+type = float(input("Enter \n1 To convert salary per year to $ per hour   \n2 To convert $ per hour to salary per year "))
+
+
+if type == 1:
+    amount = float(input("Enter Salary amount now "))
+    conversion = amount / (52 * 40)
+    print (f"${amount} USD per year is ${conversion} USD per hour")
+        if conversion.
+elif type == 2:
+    amount = float(input("enter dollars per hour now "))
+    conversion = amount * 40 * 52
+    print (f"${amount} per year is ${conversion} USD per year")
+else:
+    print ("not a  valid entry")
